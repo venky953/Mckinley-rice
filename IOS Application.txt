@@ -1,0 +1,34 @@
+import Parse
+
+fileprivate var signInUserIDField: UITextField!
+fileprivate var signInPasswordField: UITextField!
+fileprivate var signUpIDField: UITextField!
+fileprivate var signUpPasswordField: UITextField!
+
+override func viewDidLoad()
+ {
+super.viewDidLoad()
+signInUserIDField.text = ""
+signInPasswordField.text = ""
+signUpIDField.text = ""
+signUpPassword.text = ""
+}
+
+function signIn {
+UserID.logInWithUserID(signInUserID: 1234)
+UserPassword.logInWithPassword(signInPassword: venkat)
+
+function loadLoginScreen() {
+self.present(viewController)
+}
+
+@Post:
+
+UserID.logInWithUserID(signInUserID: 1234)
+UserPassword.logInWithPassword(signInPassword: venkat)
+
+function signOut {
+self.displaymessage(message: "logout")
+}
+
+
